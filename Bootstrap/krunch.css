@@ -1,0 +1,64 @@
+.nav{
+    background: rgba(100,100,100,0.5) url(../htmlimages/only_for_the_cats-wallpaper-1920x1080.jpg);
+    height: 100vh;
+    justify-content: space-around;
+    
+    
+
+}
+.logo{
+  color: white;
+}
+.nav>.logo{
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.menu>.nav-item>a{
+  color: white;
+}
+.menu>.nav-item>a:hover{
+  
+    color: rgb(0, 98, 255);
+}
+.page2>.head{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.page2>.subhead{
+  text-align: center
+  
+}
+.article{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 200px;
+
+}
+.page3>.head{
+  text-align: center;
+}
+.page3>.row{
+  padding-top: 100px;
+}
+.col-3>img:hover{
+  background-color: aqua;
+}
+.imagetext{
+text-align: center;
+color: grey;
+}
+.imagesubtext{
+color: grey;
+}
+.downloadbutton>a>button{
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(41, 65, 222);
+    border: none;
+
+}
+.downloadbutton>a>button:hover{
+    background-color: gray;
+    color: black;
+}
